@@ -13,15 +13,23 @@ pass "non-root: uid=$uid"
 [[ "${LAB_CANARY:-}" == "SYNTHETIC_ONLY" ]] || fail "explicit synthetic environment marker"
 pass "synthetic environment marker"
 
+# Verify mount flags. A non-root user may be unable to write even to an RW filesystem.
+root_opts="$(awk '$5 == "/" { print $6 }' /proc/self/mountinfo)"
+[[ -n "$root_opts" && ",$root_opts," == *,ro,* ]] || fail "root mount is not read-only: $root_opts"
 if ( printf 'probe\n' > /etc/aitooling-write-canary ) 2>/dev/null; then
   fail "root filesystem unexpectedly writable"
 fi
-pass "root filesystem is read-only"
+pass "root mount read-only (mount flags and denied write)"
 
+work_opts="$(awk '$5 == "/work" { print $6 }' /proc/self/mountinfo)"
+[[ -n "$work_opts" && ",$work_opts," == *,ro,* ]] || fail "script bind mount is not read-only: $work_opts"
 if ( printf 'probe\n' > /work/aitooling-write-canary ) 2>/dev/null; then
   fail "source bind mount unexpectedly writable"
 fi
-pass "bind mount is read-only"
+pass "script bind mount read-only (mount flags and denied write)"
+
+tmp_opts="$(awk '$5 == "/tmp" { print $6 }' /proc/self/mountinfo)"
+[[ -n "$tmp_opts" && ",$tmp_opts," == *,rw,* ]] || fail "tmpfs is not writable by mount flags: $tmp_opts"
 
 printf 'synthetic\n' > /tmp/aitooling-tmp-canary || fail "tmpfs not writable"
 [[ "$(cat /tmp/aitooling-tmp-canary)" == "synthetic" ]] || fail "tmpfs verification"
