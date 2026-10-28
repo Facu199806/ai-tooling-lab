@@ -1,0 +1,71 @@
+name: headroom-preflight
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_digest:
+        description: "Audited Ubuntu OCI digest: sha256 followed by 64 hexadecimal characters"
+        required: true
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: headroom-preflight
+  cancel-in-progress: false
+
+jobs:
+  isolation:
+    name: synthetic-container-isolation
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    timeout-minutes: 10
+    steps:
+      - name: Checkout pinned action without persisted credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Validate requested OCI digest
+        env:
+          IMAGE_DIGEST: ${{ inputs.image_digest }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! "$IMAGE_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]; then
+            echo "::error::Invalid digest. Only pre-reviewed sha256 references are accepted."
+            exit 1
+          fi
+          echo "Digest format: PASS (provenance and trust require separate review)"
+
+      - name: Run isolation preflight only
+        env:
+          IMAGE_DIGEST: ${{ inputs.image_digest }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          IMAGE="docker.io/library/ubuntu@${IMAGE_DIGEST}"
+          docker pull "$IMAGE"
+          docker image inspect "$IMAGE" --format '{{json .RepoDigests}}'
+          docker run --rm \
+            --network none \
+            --read-only \
+            --cap-drop ALL \
+            --security-opt no-new-privileges \
+            --pids-limit 64 \
+            --memory 256m \
+            --cpus 1 \
+            --user 65534:65534 \
+            --tmpfs /tmp:rw,nosuid,nodev,size=16m \
+            --mount "type=bind,src=${GITHUB_WORKSPACE}/scripts,dst=/work,readonly" \
+            --workdir /tmp \
+            --env LAB_CANARY=SYNTHETIC_ONLY \
+            "$IMAGE" bash /work/preflight.sh
+
+      - name: Final note
+        if: always()
+        shell: bash
+        run: |
+          echo "This workflow does not install or run Headroom."
+          echo "A PASS proves only the tested container properties, not absolute host isolation."

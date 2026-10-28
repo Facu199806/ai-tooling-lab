@@ -1,0 +1,12 @@
+# Generated files and offline wheels should never be committed without separate review
+__pycache__/
+*.pyc
+.venv/
+wheels/
+cache/
+artifacts/
+results/
+*.log
+.env
+.env.*
+!.env.example
