@@ -1,0 +1,508 @@
+[
+  {
+    "package": "aiohttp",
+    "member": "aiohttp/_http_parser.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "aiohttp",
+    "member": "aiohttp/_http_writer.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "aiohttp",
+    "member": "aiohttp/_websocket/mask.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "aiohttp",
+    "member": "aiohttp/_websocket/reader_c.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "ast-grep-cli",
+    "member": "ast_grep_cli-0.51.2.data/scripts/ast-grep",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.12",
+      "GLIBC_2.14",
+      "GLIBC_2.15",
+      "GLIBC_2.16",
+      "GLIBC_2.17",
+      "GLIBC_2.18",
+      "GLIBC_2.2.5",
+      "GLIBC_2.25",
+      "GLIBC_2.28",
+      "GLIBC_2.3",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4",
+      "GLIBC_2.4",
+      "GLIBC_2.9"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "ast-grep-cli",
+    "member": "ast_grep_cli-0.51.2.data/scripts/sg",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libgcc_s.so.1",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.15",
+      "GLIBC_2.16",
+      "GLIBC_2.2.5",
+      "GLIBC_2.28",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4",
+      "GLIBC_2.9"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "charset-normalizer",
+    "member": "charset_normalizer/cd.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "charset-normalizer",
+    "member": "charset_normalizer/md.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "fastuuid",
+    "member": "fastuuid/fastuuid.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libpthread.so.0",
+      "librt.so.1"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "frozenlist",
+    "member": "frozenlist/_frozenlist.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0",
+      "libstdc++.so.6"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "headroom-ai",
+    "member": "headroom/_core.abi3.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.12",
+      "GLIBC_2.14",
+      "GLIBC_2.17",
+      "GLIBC_2.18",
+      "GLIBC_2.2.5",
+      "GLIBC_2.25",
+      "GLIBC_2.28",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "hf-xet",
+    "member": "hf_xet/hf_xet.abi3.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0",
+      "librt.so.1"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.12",
+      "GLIBC_2.14",
+      "GLIBC_2.16",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4",
+      "GLIBC_2.4",
+      "GLIBC_2.6",
+      "GLIBC_2.7",
+      "GLIBC_2.9"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "jiter",
+    "member": "jiter/jiter.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "litellm",
+    "member": "litellm/rust_bridge/_native.abi3.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.12",
+      "GLIBC_2.14",
+      "GLIBC_2.15",
+      "GLIBC_2.16",
+      "GLIBC_2.17",
+      "GLIBC_2.18",
+      "GLIBC_2.2.5",
+      "GLIBC_2.25",
+      "GLIBC_2.28",
+      "GLIBC_2.3",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4",
+      "GLIBC_2.7",
+      "GLIBC_2.9"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "markupsafe",
+    "member": "markupsafe/_speedups.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "multidict",
+    "member": "multidict/_multidict.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "multidict",
+    "member": "multidict/_testcapi.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "propcache",
+    "member": "propcache/_helpers_c.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "pydantic-core",
+    "member": "pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libpthread.so.0",
+      "librt.so.1"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "pyyaml",
+    "member": "yaml/_yaml.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "regex",
+    "member": "regex/_regex.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "rpds-py",
+    "member": "rpds/rpds.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libgcc_s.so.1",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "tiktoken",
+    "member": "tiktoken/_tiktoken.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libgcc_s.so.1",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.18",
+      "GLIBC_2.2.5",
+      "GLIBC_2.25",
+      "GLIBC_2.28",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "tokenizers",
+    "member": "tokenizers/tokenizers.abi3.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libdl.so.2",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libpthread.so.0",
+      "librt.so.1",
+      "libstdc++.so.6"
+    ],
+    "versioned_symbols": [
+      "GLIBCXX_3.4",
+      "GLIBC_2.12",
+      "GLIBC_2.14",
+      "GLIBC_2.16",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4",
+      "GLIBC_2.7",
+      "GLIBC_2.9"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  },
+  {
+    "package": "yarl",
+    "member": "yarl/_quoting_c.cpython-312-x86_64-linux-gnu.so",
+    "status": "STATIC_ONLY",
+    "elf_machine": 62,
+    "machine_expected_x86_64": true,
+    "needed_libraries": [
+      "libc.so.6",
+      "libpthread.so.0"
+    ],
+    "versioned_symbols": [
+      "GLIBC_2.14",
+      "GLIBC_2.2.5"
+    ],
+    "limitation": "No instruction-set, symbol-resolution, source-to-binary, or runtime compatibility proof"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "repo": "Facu199806/ai-tooling-lab",
+  "issue": 2,
+  "run_id": 43103270792,
+  "job_id": 130799934106,
+  "head_sha": "c18076d8ab7ae365d1e0d9c7b4b2b215ac983272",
+  "run_conclusion": "success",
+  "preflight_controls_passed": 11,
+  "headroom": "NOT_RUN",
+  "container_image": "docker.io/library/ubuntu@sha256:f610ab94648195aa356059f5b41d6085c9d4d903c072430cdd1af7bdb646106b",
+  "scope": "Tested Ubuntu container properties only; no Python/Headroom runtime validation.",
+  "excerpts": [
+    "2026-11-11T21:29:08.4742565Z PASS non-root: uid=65534",
+    "2026-11-11T21:29:08.4743440Z PASS synthetic environment marker",
+    "2026-11-11T21:29:08.4761795Z PASS root mount read-only (mount flags and denied write)",
+    "2026-11-11T21:29:08.4780220Z PASS script bind mount read-only (mount flags and denied write)",
+    "2026-11-11T21:29:08.4813966Z PASS tmpfs writable",
+    "2026-11-11T21:29:08.4814614Z PASS Docker socket absent",
+    "2026-11-11T21:29:08.4835111Z PASS effective capabilities zero",
+    "2026-11-11T21:29:08.4842540Z PASS no-new-privileges active",
+    "2026-11-11T21:29:08.4862749Z PASS TCP egress denied",
+    "2026-11-11T21:29:08.4875876Z PASS DNS resolution denied",
+    "2026-11-11T21:29:08.4891918Z PASS common sensitive environment names absent",
+    "2026-11-11T21:29:08.4892632Z PREFLIGHT_PASS",
+    "2026-11-11T21:29:08.8305044Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/"
+  ]
+}

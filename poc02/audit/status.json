@@ -1,0 +1,21 @@
+{
+  "verdict": "BLOCKED",
+  "headroom": "NOT_RUN",
+  "as_of_utc": "2026-11-11T22:05:32.789848+00:00",
+  "distributions": 68,
+  "direct": 12,
+  "transitive": 55,
+  "artifact_integrity": "PASS",
+  "record_integrity": "PASS",
+  "elf_files": 25,
+  "native_packages": 19,
+  "product_benchmark": "NOT_RUN",
+  "new_workflows": "NOT_RUN",
+  "blockers": [
+    "Runtime image provenance and exact Python-isolation configuration not validated",
+    "Source/binary provenance disposition and native/vendor notices pending",
+    "tokenizers wheel license-file omission needs disposition"
+  ],
+  "owned_tests": "10/10 PASS",
+  "node_warning": "checkout v4.2.2 targets node20; observed runner forced node24; workflow unchanged"
+}

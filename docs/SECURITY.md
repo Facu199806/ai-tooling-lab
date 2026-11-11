@@ -5,7 +5,9 @@ Public-only synthetic laboratory. No private repositories are to be cloned, moun
 ## Current authorization
 
 - Preparing an experimental branch, files and draft PR: allowed.
-- Running GitHub Actions, running Headroom, fetching its dependencies or activating MCP: **NOT AUTHORIZED**.
+- The historic manual preflight was separately authorized and completed (Issue #2).
+- Current PoC 02 scope: static release/wheel/dependency audit and draft scripts/docs are authorized. Artifact reads for this audit do not authorize installation or runtime execution.
+- New GitHub Actions runs, installing/importing/running Headroom, providers or MCP remain **NOT AUTHORIZED**. See `poc02/README.md` for the current BLOCKED verdict and evidence.
 - The workflow has *only* a manual trigger and does not execute Headroom.
 - No accounts, access tokens, third-party provider APIs or secrets belong in this repository.
 
@@ -36,3 +38,4 @@ Close the draft PR and delete its experimental branch if the work is rejected. N
 processes or packages are expected from preparing the branch. If the preflight is eventually
 executed, the container uses `--rm`; additionally verify the workflow run, logs, artifacts,
 and runner completion. Public Git history and workflow logs can persist after branch deletion.
+
