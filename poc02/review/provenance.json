@@ -1,0 +1,453 @@
+{
+  "queried_at_utc": "2026-11-11T22:22:25.404655+00:00",
+  "scope": "19 existing native distributions; inventory unchanged",
+  "results": [
+    {
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "wheel_sha256": "20f085697d7e911f1f73c43ed03fafbed1e7121797e2eb5428efa80398060584",
+      "url": "https://pypi.org/integrity/aiohttp/3.14.5/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "31234d501fcd93438459cd9c2c3997fa25d79d07ab772cc97882501b8daa1b96",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "aio-libs/aiohttp",
+          "workflow": "ci-cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "20f085697d7e911f1f73c43ed03fafbed1e7121797e2eb5428efa80398060584"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "ast-grep-cli",
+      "version": "0.51.2",
+      "wheel_sha256": "461f5ea36dbc0d8e3b965128deb0ac81b17f41b74b28da909cf836ce95953027",
+      "url": "https://pypi.org/integrity/ast-grep-cli/0.51.2/ast_grep_cli-0.51.2-py3-none-manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "wheel_sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649",
+      "url": "https://pypi.org/integrity/charset-normalizer/3.5.2/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "406660061d685c25423fbadf72b20bc43b18512ed1e4d0f96ea586d5fc7b2156",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "jawah/charset_normalizer",
+          "workflow": "cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "fastuuid",
+      "version": "0.14.0",
+      "wheel_sha256": "808527f2407f58a76c916d6aa15d58692a4a019fdf8d4c32ac7ff303b7d7af09",
+      "url": "https://pypi.org/integrity/fastuuid/0.14.0/fastuuid-0.14.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "wheel_sha256": "494a5952b1c597ba44e0e78113a7266e656b9794eec897b19ead706bd7074383",
+      "url": "https://pypi.org/integrity/frozenlist/1.8.0/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "c1a48048bbf8e10bfe1c9919aaa8fa93bf0446bbd9f9cc1db4d095f85cc79df4",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "aio-libs/frozenlist",
+          "workflow": "ci-cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+              "digest": {
+                "sha256": "494a5952b1c597ba44e0e78113a7266e656b9794eec897b19ead706bd7074383"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "headroom-ai",
+      "version": "0.42.0",
+      "wheel_sha256": "fbb3ceb8f6c3f208edcc3aad43c0e03e0db45636d9d2061525ad0d0a166da146",
+      "url": "https://pypi.org/integrity/headroom-ai/0.42.0/headroom_ai-0.42.0-cp310-abi3-manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "df850ff1df46026a2c2e400090ba28fb0499957d098451644b5bbdbcabbfef3b",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "headroomlabs-ai/headroom",
+          "workflow": "release.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "headroom_ai-0.42.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "fbb3ceb8f6c3f208edcc3aad43c0e03e0db45636d9d2061525ad0d0a166da146"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.8.0",
+      "wheel_sha256": "29dab7c904cd1914a0439c6e1306c12c7497c8bd32290fbe563ebf51ca4b6d6d",
+      "url": "https://pypi.org/integrity/hf-xet/1.8.0/hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "7f4669d77f8f2bab01ab48a33b037059c889372df018d074edb9206c1ba3b1ea",
+      "publishers": [
+        {
+          "environment": "release",
+          "kind": "GitHub",
+          "repository": "huggingface/xet-core",
+          "workflow": "release.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+              "digest": {
+                "sha256": "29dab7c904cd1914a0439c6e1306c12c7497c8bd32290fbe563ebf51ca4b6d6d"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "jiter",
+      "version": "0.19.0",
+      "wheel_sha256": "0956b5f58b804221dfb929c120e6d4032138fed20c1cc0ef683a2d1326255e46",
+      "url": "https://pypi.org/integrity/jiter/0.19.0/jiter-0.19.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "b5d4838fc41cea48b0942165c02e4a5cc41b4f19292d87a5d0dfa5d9625662be",
+      "publishers": [
+        {
+          "environment": "release-python",
+          "kind": "GitHub",
+          "repository": "pydantic/jiter",
+          "workflow": "ci.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "jiter-0.19.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+              "digest": {
+                "sha256": "0956b5f58b804221dfb929c120e6d4032138fed20c1cc0ef683a2d1326255e46"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "litellm",
+      "version": "1.109.0",
+      "wheel_sha256": "d9a5bf856384f962c3eced5afc82dc0724e6f2433e47df6459e7f5c322af69b0",
+      "url": "https://pypi.org/integrity/litellm/1.109.0/litellm-1.109.0-cp310-abi3-manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "markupsafe",
+      "version": "3.0.4",
+      "wheel_sha256": "8e124f974786f831d6043728e38296969d3579db8896fe004682f5758e613581",
+      "url": "https://pypi.org/integrity/markupsafe/3.0.4/markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "cb4ad7e8cf0d4d29d75954b8d7a4060e7b8858e0e1a262d4f17ef8531d10d161",
+      "publishers": [
+        {
+          "environment": "publish",
+          "kind": "GitHub",
+          "repository": "pallets/markupsafe",
+          "workflow": "publish.yaml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "8e124f974786f831d6043728e38296969d3579db8896fe004682f5758e613581"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "multidict",
+      "version": "7.2.1",
+      "wheel_sha256": "1fb8c1a3480c130c3a6422d5f16f3cad6552bf08c2089dd288ba7134649183b5",
+      "url": "https://pypi.org/integrity/multidict/7.2.1/multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "fbe8d5d29caeb583d9e90f4bcc5e5354d77c81310fb677704592083a9c06578f",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "aio-libs/multidict",
+          "workflow": "ci-cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "1fb8c1a3480c130c3a6422d5f16f3cad6552bf08c2089dd288ba7134649183b5"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.4",
+      "wheel_sha256": "2814ecd8e818f487bee4b0f921bc4d1c176cc5fc71ac0f072d0fa67eda4ac14b",
+      "url": "https://pypi.org/integrity/propcache/0.5.4/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "f4933912bc9229e2563bae9a74d309190a16ee29772bca7388817022182c8a82",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "aio-libs/propcache",
+          "workflow": "ci-cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "2814ecd8e818f487bee4b0f921bc4d1c176cc5fc71ac0f072d0fa67eda4ac14b"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.50.4",
+      "wheel_sha256": "c81d98e27d9d9261909dcccab1ba5d6ea1c98b0bb9470e368604614fd1d36ddd",
+      "url": "https://pypi.org/integrity/pydantic-core/2.50.4/pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "wheel_sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+      "url": "https://pypi.org/integrity/pyyaml/6.0.3/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "regex",
+      "version": "2026.11.9",
+      "wheel_sha256": "ab4a0c5cd3df4b93841ba4a419a5438b2a4c78a4e418682fc674e3f50d56b857",
+      "url": "https://pypi.org/integrity/regex/2026.11.9/regex-2026.11.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "wheel_sha256": "addeda51556dac7c1a2f14cda62db8b621cd12afba3091d03a96c72932387eab",
+      "url": "https://pypi.org/integrity/rpds-py/2026.9.1/rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "a1d7404743e9dbc3bb35cda8921cfc69128d24440d2d24146f998e45a1dbed0b",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "crate-py/rpds",
+          "workflow": "CI.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "digest": {
+                "sha256": "addeda51556dac7c1a2f14cda62db8b621cd12afba3091d03a96c72932387eab"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.14.0",
+      "wheel_sha256": "7896eea257fe497a2b7134474d909156c6744ce8da35bce88011a960e008aa0d",
+      "url": "https://pypi.org/integrity/tiktoken/0.14.0/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "NOT_AVAILABLE",
+      "http_status": 404
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "wheel_sha256": "376851d22bcf9d650a5c3090bb83e6cf9e895fbf0595369fa4cd43c1f69b5f87",
+      "url": "https://pypi.org/integrity/tokenizers/0.23.3/tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "9040f103398a9349f6e651afa476d5b4c08a6c2eb2f4cf478f1d8b20d879e689",
+      "publishers": [
+        {
+          "environment": "release",
+          "kind": "GitHub",
+          "repository": "huggingface/tokenizers",
+          "workflow": "python-release.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "digest": {
+                "sha256": "376851d22bcf9d650a5c3090bb83e6cf9e895fbf0595369fa4cd43c1f69b5f87"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    },
+    {
+      "name": "yarl",
+      "version": "1.25.1",
+      "wheel_sha256": "c6f117789d22dce188e5754e8bc65b7e6ebf8cb73963b9fa761f672a5883769d",
+      "url": "https://pypi.org/integrity/yarl/1.25.1/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl/provenance",
+      "cryptographic_verification": "NOT_PERFORMED",
+      "status": "AVAILABLE_UNVERIFIED",
+      "document_sha256": "329e4422841560cdd0f0e3e44a0f79e7342f445464ada0b596ac94b72c15cab6",
+      "publishers": [
+        {
+          "environment": "pypi",
+          "kind": "GitHub",
+          "repository": "aio-libs/yarl",
+          "workflow": "ci-cd.yml"
+        }
+      ],
+      "statements": [
+        {
+          "subject": [
+            {
+              "name": "yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+              "digest": {
+                "sha256": "c6f117789d22dce188e5754e8bc65b7e6ebf8cb73963b9fa761f672a5883769d"
+              }
+            }
+          ],
+          "predicate_type": "https://docs.pypi.org/attestations/publish/v1",
+          "predicate": null,
+          "sha256_subject_matches": true
+        }
+      ]
+    }
+  ]
+}

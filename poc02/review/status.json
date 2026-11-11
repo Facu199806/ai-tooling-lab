@@ -1,0 +1,14 @@
+{
+  "as_of_utc": "2026-11-11T22:33:52.629250+00:00",
+  "reference_head": "61f117d3212cd5497d40c9694c6102728fd9a4b7",
+  "licenses": "PASS_WITH_LIMITATIONS",
+  "publication_evidence_review": "PASS_WITH_LIMITATIONS",
+  "cryptographic_attestation_verification": "NOT_PERFORMED",
+  "package_risk_acceptance": "PROPOSED_NOT_GRANTED",
+  "runtime_preparation": "PASS",
+  "runtime_execution_validation": "BLOCKED_NOT_RUN",
+  "headroom": "NOT_RUN",
+  "functional_execution": "BLOCKED",
+  "next_authorization_scope": "One Python-only preflight; no package installation/import/benchmark",
+  "inventory_sha256_unchanged": "319937c452c06b195f83668ddaf65e2a8377f87882bf202e44f6b29ebf3ff019"
+}

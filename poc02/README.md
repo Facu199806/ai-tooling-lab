@@ -2,6 +2,9 @@
 
 **Verdict: BLOCKED for functional execution.** This is a draft audit/benchmark proposal for Issue #2. No new workflow, package installation, product import, provider call, agent integration or merge is authorized by these files.
 
+
+> Incremental review: see [review/REVIEW.md](review/REVIEW.md) and [review/status.json](review/status.json). License/publication documentary findings are now PASS_WITH_LIMITATIONS; the pinned Python preflight is prepared but NOT_RUN. Historic findings below remain the original audit snapshot. Functional execution stays BLOCKED.
+
 ## Verified evidence
 
 The merged baseline is `c18076d8ab7ae365d1e0d9c7b4b2b215ac983272`. Run [43103270792](https://github.com/Facu199806/ai-tooling-lab/actions/runs/43103270792), job [130799934106](https://github.com/Facu199806/ai-tooling-lab/actions/runs/43103270792/job/130799934106), concluded success on 2026-11-11. Its 11 defined controls and PREFLIGHT_PASS were independently read in the job log. `audit/preflight-evidence.json` preserves scoped excerpts and the tested Ubuntu image digest. The result establishes only those tests on that container; it does not validate a Python runtime, package compatibility or absolute runner/daemon isolation. No new runs were started for this PR.

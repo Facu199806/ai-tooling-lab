@@ -1,0 +1,175 @@
+{
+  "official_repository": "docker.io/library/python",
+  "index_digest": "sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df",
+  "amd64_digest": "sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4",
+  "source_catalog_commit": "ce195faae0cdca9680fed707a4074f9e41932dc6",
+  "runtime_execution": "NOT_RUN",
+  "retrieved_at_utc": "2026-11-11T22:24:25.106602+00:00",
+  "status": "STATIC_DIGEST_CHAIN_PASS",
+  "config_digest": "sha256:313cf8f190a1abab00472c1f0c950c10486c22114bcd8aef2a8198fb587a6d18",
+  "architecture": "amd64",
+  "os": "linux",
+  "environment": [
+    "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "LANG=C.UTF-8",
+    "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+    "PYTHON_VERSION=3.12.16",
+    "PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c"
+  ],
+  "cmd": [
+    "python3"
+  ],
+  "entrypoint": null,
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3",
+      "size": 28247982
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e",
+      "size": 3341518
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7",
+      "size": 13679755
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:88d15687540999237909e04714b1393c610db9dc2e13d82acd6356fa9bf8f092",
+      "size": 249
+    }
+  ],
+  "history": [
+    {
+      "created": "2026-11-04T21:23:39Z",
+      "created_by": "# debian.sh --arch 'amd64' out/ 'bookworm' '@1793827419'",
+      "comment": "debuerreotype 0.17"
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "ENV LANG=C.UTF-8",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "RUN /bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tnetbase \t\ttzdata \t; \trm -rf /var/lib/apt/lists/* # buildkit",
+      "comment": "buildkit.dockerfile.v0"
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "ENV PYTHON_VERSION=3.12.16",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    },
+    {
+      "created": "2026-11-05T07:52:24.755997222Z",
+      "created_by": "ENV PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    },
+    {
+      "created": "2026-11-05T08:01:02.194153595Z",
+      "created_by": "RUN /bin/sh -c set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tdpkg-dev \t\tg++ \t\tgcc \t\tgnupg \t\tlibbluetooth-dev \t\tlibbz2-dev \t\tlibc6-dev \t\tlibdb-dev \t\tlibffi-dev \t\tlibgdbm-dev \t\tliblzma-dev \t\tlibncursesw5-dev \t\tlibreadline-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tmake \t\ttk-dev \t\tuuid-dev \t\twget \t\txz-utils \t\tzlib1g-dev \t; \t\twget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\"; \techo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -; \twget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\"; \tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\"; \tgpg --batch --verify python.tar.xz.asc python.tar.xz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" python.tar.xz.asc; \tmkdir -p /usr/src/python; \ttar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz; \trm python.tar.xz; \t\tcd /usr/src/python; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \t./configure \t\t--build=\"$gnuArch\" \t\t--enable-loadable-sqlite-extensions \t\t--enable-optimizations \t\t--enable-option-checking=fatal \t\t--enable-shared \t\t$(test \"${gnuArch%%-*}\" != 'riscv64' && echo '--with-lto') \t\t--with-ensurepip \t; \tnproc=\"$(nproc)\"; \tEXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\"; \tLDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\"; \tLDFLAGS=\"${LDFLAGS:-} -Wl,--strip-all\"; \tarch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\"; \tcase \"$arch\" in \t\tamd64|arm64) \t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer\"; \t\t\t;; \t\ti386) \t\t\t;; \t\t*) \t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer\"; \t\t\t;; \tesac; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-}\" \t; \trm python; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-} -Wl,-rpath='\\$\\$ORIGIN/../lib'\" \t\tpython \t; \tmake install; \t\tcd /; \trm -rf /usr/src/python; \t\tfind /usr/local -depth \t\t\\( \t\t\t\\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\) \t\t\t-o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\) \t\t\\) -exec rm -rf '{}' + \t; \t\tldconfig; \t\tapt-mark auto '.*' > /dev/null; \tapt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';' \t\t| awk '/=>/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }' \t\t| sort -u \t\t| xargs -rt dpkg-query --search \t\t| awk 'sub(\":$\", \"\", $1) { print $1 }' \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\texport PYTHONDONTWRITEBYTECODE=1; \tpython3 --version; \tpip3 --version # buildkit",
+      "comment": "buildkit.dockerfile.v0"
+    },
+    {
+      "created": "2026-11-05T08:01:02.30892282Z",
+      "created_by": "RUN /bin/sh -c set -eux; \tfor src in idle3 pip3 pydoc3 python3 python3-config; do \t\tdst=\"$(echo \"$src\" | tr -d 3)\"; \t\t[ -s \"/usr/local/bin/$src\" ]; \t\t[ ! -e \"/usr/local/bin/$dst\" ]; \t\tln -svT \"$src\" \"/usr/local/bin/$dst\"; \tdone # buildkit",
+      "comment": "buildkit.dockerfile.v0"
+    },
+    {
+      "created": "2026-11-05T08:01:02.30892282Z",
+      "created_by": "CMD [\"python3\"]",
+      "comment": "buildkit.dockerfile.v0",
+      "empty_layer": true
+    }
+  ],
+  "index_other_descriptors": [
+    {
+      "annotations": {
+        "com.docker.official-images.bashbrew.arch": "amd64",
+        "vnd.docker.reference.digest": "sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4",
+        "vnd.docker.reference.type": "attestation-manifest"
+      },
+      "digest": "sha256:e338e960c496bce1dca192f4e0b68330dd1cbc614dea6cfe34cfbd9e00980889",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "unknown",
+        "os": "unknown"
+      },
+      "size": 841
+    },
+    {
+      "annotations": {
+        "com.docker.official-images.bashbrew.arch": "arm32v7",
+        "vnd.docker.reference.digest": "sha256:4624e8a740fdb340a1474abbb3342ae5863d232400915fcee653a177d6c2c018",
+        "vnd.docker.reference.type": "attestation-manifest"
+      },
+      "digest": "sha256:a6c751d731f95bb01dd9845a5b3342de0bd9ae45a751ea1e5b858994ab8b7e3d",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "unknown",
+        "os": "unknown"
+      },
+      "size": 841
+    },
+    {
+      "annotations": {
+        "com.docker.official-images.bashbrew.arch": "arm64v8",
+        "vnd.docker.reference.digest": "sha256:df540bfd30bd380e89a349611ce42aa67bcb542d58c047706616eb6ba2f86a1b",
+        "vnd.docker.reference.type": "attestation-manifest"
+      },
+      "digest": "sha256:1963550cb3eceef68960bf21cffab72ddebb30f1c1ba97e752ad9a63af628b3e",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "unknown",
+        "os": "unknown"
+      },
+      "size": 841
+    },
+    {
+      "annotations": {
+        "com.docker.official-images.bashbrew.arch": "i386",
+        "vnd.docker.reference.digest": "sha256:fc920c9ef7a6af1e37a9c009bd12a67bd0f00ec4e8387dfe1f640b70c8dcc3f4",
+        "vnd.docker.reference.type": "attestation-manifest"
+      },
+      "digest": "sha256:0936a841c41bff933403ff0cd2c481a28a7b6a9b04f41c1e13cd7cbb83e5a80e",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "unknown",
+        "os": "unknown"
+      },
+      "size": 841
+    },
+    {
+      "annotations": {
+        "com.docker.official-images.bashbrew.arch": "ppc64le",
+        "vnd.docker.reference.digest": "sha256:6c642bcf796fbbdb31f2acb865db87aab37ad94cb978aed25a2acbdc294aed25",
+        "vnd.docker.reference.type": "attestation-manifest"
+      },
+      "digest": "sha256:57f7c38e642874d1d6a1e27f2941d220164500081fac471d0b91a30c46a35d52",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "unknown",
+        "os": "unknown"
+      },
+      "size": 841
+    }
+  ]
+}
