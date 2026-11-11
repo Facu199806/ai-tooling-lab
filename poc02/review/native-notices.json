@@ -1,0 +1,367 @@
+[
+  {
+    "package": "aiohttp",
+    "version": "3.14.5",
+    "license_expression": "Apache-2.0 AND MIT",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "aiohttp-3.14.5.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+        "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23",
+        "size": 11313
+      },
+      {
+        "path": "aiohttp-3.14.5.dist-info/licenses/vendor/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE",
+        "sha256": "628168d68bb5a8a17e0bbefb3bd74e326e1edc20583d76f52f457c82c921867d",
+        "size": 1069
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "ast-grep-cli",
+    "version": "0.51.2",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "notice_files": [
+      {
+        "path": "ast_grep_cli-0.51.2.dist-info/licenses/LICENSE",
+        "sha256": "81471889c77b2161a3e4dcdb1b2e6ca382e485766132d92d5fe1d7497e7dd2d9",
+        "size": 1077
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "charset-normalizer",
+    "version": "3.5.2",
+    "license_expression": null,
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "charset_normalizer-3.5.2.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+        "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+        "size": 1071
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "fastuuid",
+    "version": "0.14.0",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "notice_files": [
+      {
+        "path": "fastuuid-0.14.0.dist-info/licenses/LICENSE",
+        "sha256": "00736c852386ac15a12283c00677b46ef4b303be53ab0a1d05f48a9291355fa4",
+        "size": 1534
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "frozenlist",
+    "version": "1.8.0",
+    "license_expression": null,
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "frozenlist-1.8.0.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "frozenlist-1.8.0.dist-info/licenses/LICENSE",
+        "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6",
+        "size": 11332
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "headroom-ai",
+    "version": "0.42.0",
+    "license_expression": "Apache-2.0",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "headroom/license_env.py",
+        "sha256": "dc6245538602d0fada5b51862f07e46273ccea02385263244b77505e5f236178",
+        "size": 2637
+      },
+      {
+        "path": "headroom_ai-0.42.0.dist-info/licenses/LICENSE",
+        "sha256": "f14dd440c8e3152b4d4d324615de8251ddb011dc81f484daad0b6902093539cc",
+        "size": 10770
+      },
+      {
+        "path": "headroom_ai-0.42.0.dist-info/licenses/NOTICE",
+        "sha256": "88dc0f4a90a8742dcdd1c61e19050b73a9dba7e45ec9ac41a62ba0ae005aa6aa",
+        "size": 1602
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "hf-xet",
+    "version": "1.8.0",
+    "license_expression": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "notice_files": [
+      {
+        "path": "hf_xet-1.8.0.dist-info/licenses/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size": 11357
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "jiter",
+    "version": "0.19.0",
+    "license_expression": "MIT",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "jiter-0.19.0.dist-info/licenses/LICENSE",
+        "sha256": "7c7134b9f7b978c03fca875517cf398db91f19bbb8109b6685e742aa3f57468e",
+        "size": 1091
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "litellm",
+    "version": "1.109.0",
+    "license_expression": "MIT",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "litellm/litellm_core_utils/tokenizers/deepseek_tokenizer_LICENSE",
+        "sha256": "f2c6c602815669d292889e5be8c802f2ed950653b77999b1584e8e6aed25d040",
+        "size": 1084
+      },
+      {
+        "path": "litellm/proxy/auth/litellm_license.py",
+        "sha256": "2bce83887d26ac2741a6834329f249285a36d4610115ff02b5886a6c2037e70c",
+        "size": 8877
+      },
+      {
+        "path": "litellm-1.109.0.dist-info/licenses/LICENSE",
+        "sha256": "b170d6bf8e8835dd357e011681db028f4d51e2fb0ea892058f56e01fb39b8273",
+        "size": 1419
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "markupsafe",
+    "version": "3.0.4",
+    "license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "markupsafe-3.0.4.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+        "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "size": 1475
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "multidict",
+    "version": "7.2.1",
+    "license_expression": "Apache-2.0",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "multidict-7.2.1.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "multidict-7.2.1.dist-info/licenses/LICENSE",
+        "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23",
+        "size": 11313
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "propcache",
+    "version": "0.5.4",
+    "license_expression": null,
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "propcache-0.5.4.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "propcache-0.5.4.dist-info/licenses/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358
+      },
+      {
+        "path": "propcache-0.5.4.dist-info/licenses/NOTICE",
+        "sha256": "56d6ac6c8105c0a51304c21db060e361af9a8ea0af9a75c239c28b5d13693838",
+        "size": 609
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "pydantic-core",
+    "version": "2.50.4",
+    "license_expression": "MIT",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "pydantic_core-2.50.4.dist-info/licenses/LICENSE",
+        "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+        "size": 1080
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "pyyaml",
+    "version": "6.0.3",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "notice_files": [
+      {
+        "path": "pyyaml-6.0.3.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "pyyaml-6.0.3.dist-info/licenses/LICENSE",
+        "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+        "size": 1101
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "regex",
+    "version": "2026.11.9",
+    "license_expression": "Apache-2.0 AND CNRI-Python",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "regex-2026.11.9.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "regex-2026.11.9.dist-info/licenses/LICENSE.txt",
+        "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+        "size": 11584
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "rpds-py",
+    "version": "2026.9.1",
+    "license_expression": "MIT",
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+        "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+        "size": 1057
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "tiktoken",
+    "version": "0.14.0",
+    "license_expression": null,
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "tiktoken-0.14.0.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "tiktoken-0.14.0.dist-info/licenses/LICENSE",
+        "sha256": "418cb499b436128d653d79941333a5437b7be2ea9213dcc2f04d15d5d2c51d86",
+        "size": 1078
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "tokenizers",
+    "version": "0.23.3",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "notice_files": [],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  },
+  {
+    "package": "yarl",
+    "version": "1.25.1",
+    "license_expression": null,
+    "license_classifiers": [],
+    "notice_files": [
+      {
+        "path": "yarl-1.25.1.dist-info/licenses/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "yarl-1.25.1.dist-info/licenses/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358
+      },
+      {
+        "path": "yarl-1.25.1.dist-info/licenses/NOTICE",
+        "sha256": "56d6ac6c8105c0a51304c21db060e361af9a8ea0af9a75c239c28b5d13693838",
+        "size": 609
+      }
+    ],
+    "scope": "Existing native wheel notice files inspected as text/data; no complete source-to-binary vendored crate attribution claim."
+  }
+]

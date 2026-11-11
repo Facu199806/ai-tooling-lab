@@ -1,0 +1,53 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "image": "docker.io/library/python@sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4",
+  "digest": "sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4",
+  "config_digest": "sha256:313cf8f190a1abab00472c1f0c950c10486c22114bcd8aef2a8198fb587a6d18",
+  "platform": "linux/amd64",
+  "python": [
+    3,
+    12,
+    16
+  ],
+  "soabi": "cpython-312-x86_64-linux-gnu",
+  "glibc_min": [
+    2,
+    28
+  ],
+  "glibc_image_package": "2.36-9+deb12u14",
+  "pip_version": "25.0.1",
+  "ensurepip_wheel_path": "/usr/local/lib/python3.12/ensurepip/_bundled/pip-25.0.1-py3-none-any.whl",
+  "ensurepip_wheel_sha256": "c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f",
+  "required_sonames": [
+    "ld-linux-x86-64.so.2",
+    "libc.so.6",
+    "libdl.so.2",
+    "libgcc_s.so.1",
+    "libm.so.6",
+    "libpthread.so.0",
+    "librt.so.1",
+    "libstdc++.so.6"
+  ],
+  "required_glibc_symbols": [
+    "GLIBC_2.12",
+    "GLIBC_2.14",
+    "GLIBC_2.15",
+    "GLIBC_2.16",
+    "GLIBC_2.17",
+    "GLIBC_2.18",
+    "GLIBC_2.2.5",
+    "GLIBC_2.25",
+    "GLIBC_2.28",
+    "GLIBC_2.3",
+    "GLIBC_2.3.2",
+    "GLIBC_2.3.4",
+    "GLIBC_2.4",
+    "GLIBC_2.6",
+    "GLIBC_2.7",
+    "GLIBC_2.9"
+  ],
+  "required_glibcxx_symbols": [
+    "GLIBCXX_3.4"
+  ],
+  "isolation_scope": "CPython stdlib and trusted bundled installer metadata only; no wheelhouse mounted; package imports forbidden"
+}

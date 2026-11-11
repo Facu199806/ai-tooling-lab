@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       image_digest:
-        description: "Audited Ubuntu OCI digest: sha256 followed by 64 hexadecimal characters"
+        description: "Reviewed CPython 3.12 AMD64 digest (PR #3 runtime preflight only)"
         required: true
         type: string
 
@@ -37,31 +37,38 @@ jobs:
             echo "::error::Invalid digest. Only pre-reviewed sha256 references are accepted."
             exit 1
           fi
-          echo "Digest format: PASS (provenance and trust require separate review)"
+          if [[ "$IMAGE_DIGEST" != "sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4" ]]; then
+            echo "::error::Digest is not the reviewed CPython runtime."
+            exit 1
+          fi
+          echo "Reviewed CPython digest: MATCH (runtime validation remains pending)"
 
-      - name: Run isolation preflight only
+      - name: Run CPython isolation preflight only
         env:
           IMAGE_DIGEST: ${{ inputs.image_digest }}
         shell: bash
         run: |
           set -euo pipefail
-          IMAGE="docker.io/library/ubuntu@${IMAGE_DIGEST}"
-          docker pull "$IMAGE"
+          IMAGE="docker.io/library/python@${IMAGE_DIGEST}"
+          docker pull --platform linux/amd64 "$IMAGE"
           docker image inspect "$IMAGE" --format '{{json .RepoDigests}}'
-          docker run --rm \
+          docker run --platform linux/amd64 --rm \
             --network none \
             --read-only \
             --cap-drop ALL \
             --security-opt no-new-privileges \
             --pids-limit 64 \
             --memory 256m \
+            --memory-swap 256m \
             --cpus 1 \
             --user 65534:65534 \
-            --tmpfs /tmp:rw,nosuid,nodev,size=16m \
+            --tmpfs /tmp:rw,nosuid,nodev,noexec,size=16m \
             --mount "type=bind,src=${GITHUB_WORKSPACE}/scripts,dst=/work,readonly" \
+            --mount "type=bind,src=${GITHUB_WORKSPACE}/poc02/review/runtime.json,dst=/runtime.json,readonly" \
             --workdir /tmp \
             --env LAB_CANARY=SYNTHETIC_ONLY \
-            "$IMAGE" bash /work/preflight.sh
+            --env PYTHONDONTWRITEBYTECODE=1 \
+            "$IMAGE" bash -c 'bash /work/preflight.sh && exec python3 -I /work/python_runtime_preflight.py'
 
       - name: Final note
         if: always()
@@ -69,3 +76,4 @@ jobs:
         run: |
           echo "This workflow does not install or run Headroom."
           echo "A PASS proves only the tested container properties, not absolute host isolation."
+

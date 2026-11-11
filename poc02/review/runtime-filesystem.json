@@ -1,0 +1,153 @@
+{
+  "status": "STATIC_LAYER_INSPECTION_PASS",
+  "layer_hashes": [
+    {
+      "digest": "sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3",
+      "size": 28247982,
+      "hash_verified": true
+    },
+    {
+      "digest": "sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e",
+      "size": 3341518,
+      "hash_verified": true
+    },
+    {
+      "digest": "sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7",
+      "size": 13679755,
+      "hash_verified": true
+    },
+    {
+      "digest": "sha256:88d15687540999237909e04714b1393c610db9dc2e13d82acd6356fa9bf8f092",
+      "size": 249,
+      "hash_verified": true
+    }
+  ],
+  "required_sonames": [
+    "ld-linux-x86-64.so.2",
+    "libc.so.6",
+    "libdl.so.2",
+    "libgcc_s.so.1",
+    "libm.so.6",
+    "libpthread.so.0",
+    "librt.so.1",
+    "libstdc++.so.6"
+  ],
+  "soname_paths": {
+    "ld-linux-x86-64.so.2": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "type": "file",
+        "link": "",
+        "size": 215000,
+        "sha256": "02bcda52c1a5dfc236f94d9e5255b4a0e26347d8a372a5223b650e31f291ce3c"
+      },
+      {
+        "path": "usr/lib64/ld-linux-x86-64.so.2",
+        "type": "symlink",
+        "link": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "size": 0
+      }
+    ],
+    "libc.so.6": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libc.so.6",
+        "type": "file",
+        "link": "",
+        "size": 1926232,
+        "sha256": "6b4a45352fd0c540a9c7c718f35ce8c8e46a4e482f9d3885a910c32d1a0e1421"
+      }
+    ],
+    "libdl.so.2": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libdl.so.2",
+        "type": "file",
+        "link": "",
+        "size": 14480,
+        "sha256": "95d521b2c39fd0333271b6fdcdddff878ae82001a304313a837b8e728ebe3cb1"
+      }
+    ],
+    "libgcc_s.so.1": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "type": "file",
+        "link": "",
+        "size": 125312,
+        "sha256": "2bd1552c47799ef67e701e81d4383061fd76059868e446e63560f0dd0d5ec14e"
+      }
+    ],
+    "libm.so.6": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libm.so.6",
+        "type": "file",
+        "link": "",
+        "size": 911904,
+        "sha256": "7f2ca87f652f56b094462474b076749e90e689d0ecb9cb63c7679820b271b4e7"
+      }
+    ],
+    "libpthread.so.0": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libpthread.so.0",
+        "type": "file",
+        "link": "",
+        "size": 14480,
+        "sha256": "b93a680da8a05b939b235c1533572e7a2f6d3d8808bf70209997edc64ea5fedc"
+      }
+    ],
+    "librt.so.1": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/librt.so.1",
+        "type": "file",
+        "link": "",
+        "size": 14640,
+        "sha256": "41c72def458b8cfb6aab96a7dbada7454dd216d89aac65fb085eb52bead51def"
+      }
+    ],
+    "libstdc++.so.6": [
+      {
+        "path": "usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "type": "symlink",
+        "link": "libstdc++.so.6.0.30",
+        "size": 0
+      }
+    ]
+  },
+  "package_manager_records": [
+    {
+      "Package": "libc6",
+      "Version": "2.36-9+deb12u14",
+      "Status": "install ok installed",
+      "Architecture": "amd64"
+    },
+    {
+      "Package": "libgcc-s1",
+      "Version": "12.2.0-14+deb12u1",
+      "Status": "install ok installed",
+      "Architecture": "amd64"
+    },
+    {
+      "Package": "libstdc++6",
+      "Version": "12.2.0-14+deb12u1",
+      "Status": "install ok installed",
+      "Architecture": "amd64"
+    }
+  ],
+  "installer_files": [
+    {
+      "path": "usr/local/lib/python3.12/ensurepip/_bundled/pip-25.0.1-py3-none-any.whl",
+      "type": "file",
+      "link": "",
+      "size": 1841526,
+      "sha256": "c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f"
+    },
+    {
+      "path": "usr/local/lib/python3.12/site-packages/pip-25.0.1.dist-info/METADATA",
+      "type": "file",
+      "link": "",
+      "size": 3677,
+      "sha256": "4fa7318cf30f979db7cec45c12cbbc2b4f88a15f12eefbf59a6291d0a03af926",
+      "version": "25.0.1"
+    }
+  ],
+  "runtime_execution": "NOT_RUN",
+  "limitation": "Static filesystem/header evidence; dynamic loading and isolation still need authorized preflight."
+}

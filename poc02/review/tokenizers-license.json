@@ -1,0 +1,23 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "source_commit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+  "annotated_tag_object": "9ab7691f497eff905f961aba51a4bb9be3e9555c",
+  "github_tag_verification_reported": true,
+  "source_license": "Apache-2.0",
+  "source_python_binding_version": "0.23.3",
+  "source_core_crate_version": "0.23.2",
+  "source_license_url": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/LICENSE",
+  "supplemental_license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "pypi_classifiers": [
+    "License :: OSI Approved :: Apache Software License"
+  ],
+  "pypi_license_expression": null,
+  "pypi_wheel_sha256": "376851d22bcf9d650a5c3090bb83e6cf9e895fbf0595369fa4cd43c1f69b5f87",
+  "inventory_wheel_sha256_unchanged": true,
+  "wheel_license_omission": "Preserved; supplemental upstream license is outside unmodified wheel",
+  "scope": "License identification for internal synthetic evaluation, not complete binary/source or vendored-crate reproduction",
+  "redistribution": "Not authorized; retain upstream LICENSE/NOTICE and resolve native/vendor notices before redistribution",
+  "retrieved_at_utc": "2026-11-11T22:26:38.980275+00:00",
+  "source_license_git_blob_reported": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+  "source_license_exact_bytes_verified": true
+}
